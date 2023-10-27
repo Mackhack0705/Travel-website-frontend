@@ -1,0 +1,27 @@
+.footer-section {
+    padding-block: 1%;
+}
+
+.footer-table {
+    border-collapse: collapse;
+    margin: auto;
+    table-layout: fixed;
+    width: 60%;
+    
+}
+
+td {
+    padding-left: 2%;
+    padding: 0.5% 2%;
+}
+
+td a {
+    color: var(--secondary-text-color) !important;
+}
+
+.contact-logo {
+    margin: 0.5rem;
+}
+.footer-table tr th {
+    padding-left: 1rem;
+}

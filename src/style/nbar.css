@@ -1,0 +1,35 @@
+
+/* NavBar */
+
+
+.main-nav {
+    justify-content: space-between;
+    position: absolute;
+    top: 1.5rem;
+    left: 5rem;
+}
+
+.menu ul li {
+    font-size: 1.15rem;
+}
+
+.menu ul li a {
+    color: #eab032;
+}
+.search-input {
+    padding: 5px 15px;
+    color: #ffff ;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 10.5rem center;
+    border: 2px solid var(--primary-btn-color);
+    height: 2.4rem;
+    width: 12rem;
+    border-radius: 5px;
+}
+
+.search-input::placeholder{
+    color: #ffff !important;
+}
+

@@ -1,0 +1,19 @@
+.offer-title {
+    position: relative;
+    bottom: 25%;
+    color: #ffff !important;
+    background-color: #eab032;
+    width: 60%;
+    padding: 2% 5%;
+}
+
+.offer-price {
+    color: #eab032;
+    font-weight: 650;
+    font-size: 2rem;
+    margin-right: 2%;
+}
+
+.offer-desc {
+    font-size: 1rem  !important;
+}

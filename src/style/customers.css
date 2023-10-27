@@ -1,0 +1,22 @@
+.customer-table {
+    margin-top: 4%;
+    padding-block: 4%;
+    background: linear-gradient(45deg, #ff9900, #a333ff);
+}
+.customer-table table {
+    margin: auto;
+}
+.customer-row1 th{
+    text-align: left;
+    font-size: 2rem;
+    color: var(--primary-text-color);
+}
+.customer-row2 td {
+    padding-left: 1.5%;
+    color: var(--secondary-text-color);
+}
+
+table.a {
+    table-layout: fixed;
+    width: 70%;
+}
