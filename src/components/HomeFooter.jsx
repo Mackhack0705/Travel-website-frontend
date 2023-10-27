@@ -21,24 +21,24 @@ const HomeFooter = () => {
         </tr>
         <tr>
             <td rowSpan={3}>Book your trip in minute, get full control for much longer.</td>
-            <td><a href="#">About</a></td>
-            <td><a href="#">Help/FAQ</a></td>
-            <td><a href="#">Airlinefees</a></td>
+            <td><a href="#About">About</a></td>
+            <td><a href="#FAQ">Help/FAQ</a></td>
+            <td><a href="#AirlineFees">Airlinefees</a></td>
             <td>Discover our app</td>
         </tr>
         <tr>
-            <td><a href="#">Careers</a></td>
-            <td><a href="#">Press</a></td>
-            <td><a href="#">Airline</a></td>
+            <td><a href="#Career">Careers</a></td>
+            <td><a href="#Press">Press</a></td>
+            <td><a href="#Airline">Airline</a></td>
             <td rowSpan={2} >
               <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="" />
               <img src="https://w7.pngwing.com/pngs/1015/380/png-transparent-app-store-logo-iphone-app-store-google-play-apple-app-store-electronics-text-logo.png" alt="" />
             </td>
         </tr>
         <tr>
-            <td><a href="#">Mobile</a></td>
-            <td><a href="#">Affiliate</a></td>
-            <td><a href="#">Low far tips</a></td>
+            <td><a href="#Mobile">Mobile</a></td>
+            <td><a href="#Affiliate">Affiliate</a></td>
+            <td><a href="#tips">Low far tips</a></td>
         </tr>
       </table>
     </div>
