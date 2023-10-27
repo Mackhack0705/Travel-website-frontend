@@ -10,7 +10,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   // You can use state to keep track of the user's login status
   
-  const token = localStorage.getItem('token');
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   return (
     <div>

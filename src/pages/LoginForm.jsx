@@ -21,7 +21,7 @@ const LoginForm = ({ setIsLoggedIn }) => {
       e.preventDefault();
       console.log(formData);
 
-      const response = await axios.post("${BASE_URL}/users/login", formData);
+      const response = await axios.post(`${BASE_URL}/users/login`, formData);
       // Handle the response from the server, e.g., save the token and redirect the user
       const token = response.data.token;
 

@@ -71,7 +71,7 @@ const Feature = () => {
   
   const HandleHotels = async () => {
     try {
-      const res = await axios.get('${BASE_URL}/items/hotel/allitems');
+      const res = await axios.get(`${BASE_URL}/items/hotel/allitems`);
       console.log(res.data);
       const HotelData = await res.data;
       // setActiveSection(false);
@@ -85,7 +85,7 @@ const Feature = () => {
 
   const HandleFlights = async () => {
     try {
-      const res = await axios.get('${BASE_URL}/items/flight/allitems');
+      const res = await axios.get(`${BASE_URL}/items/flight/allitems`);
       console.log(res.data);
       const FlightData = await res.data;
       // setActiveSection(false);

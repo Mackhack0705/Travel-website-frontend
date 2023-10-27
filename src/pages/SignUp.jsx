@@ -29,7 +29,7 @@ const SignUp = () => {
 
     try {
       // Send a post reques to your Express api to add a new user
-      await axios.post("${BASE_URL}/users/register", formData);
+      await axios.post(`${BASE_URL}/users/register`, formData);
 
       // Clear the Form fields after successful submission
       setFormData({
