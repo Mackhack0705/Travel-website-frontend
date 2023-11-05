@@ -11,7 +11,7 @@ const Nbar = ({ isLoggedIn }) => {
   return (
     <div className="container main-nav fl">
       <a href="#logo" className="company-logo">
-        <img src={logo} alt="" style={{ height: "80px", width: "100%" }} />
+        <img src={logo} alt="" style={{ height: "50%", width: "100%" }} />
       </a>
       <div className='drop-down fl'>
         <div className="menu">

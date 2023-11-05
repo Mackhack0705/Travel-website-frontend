@@ -41,12 +41,13 @@
 
 .search-icon {
     position: absolute;
-    top: 1.85rem;
-    right: 16rem;
+    top: 1.5rem;
+    right: 15.5rem;
 }
 
 .company-logo {
-    width: 10%;
+    width: 9%;
+    height: 100%;
 }
 
 .menu {
@@ -98,9 +99,10 @@
 
     .search-input {
         width: 8rem;
+        height: 2.3rem;
     }
     .search-icon {
-        top: 1.9rem;
+        top: 1.2rem;
         right: 14.5rem;
     }
 
@@ -120,14 +122,16 @@
     .container {
         max-width: 768px !important;
     }
-
+    .company-logo {
+        width: 11%;
+    }
     .search-input {
         width: 1.9rem;
         border: none;
     }
 
     .search-icon {
-        top: 1.8rem;
+        top: 1.2rem;
         right: 14.1rem;
     }
 
@@ -146,10 +150,6 @@
     ul {
         padding-left: 1rem !important;
     }
-
-    .company-logo {
-        width: 13%;
-    }
     .drop-down {
         gap: 2.1rem;
     }
@@ -164,9 +164,6 @@
     .menu {
         display: none;
     }
-    .company-logo {
-        width: 10%;
-    }
     .drop-down {
         width: 45%;
     }
@@ -176,9 +173,8 @@
     .main-nav {
         gap: 15rem;
     }
-
     .company-logo {
-        width: 18%;
+        width: 14%;
     }
 }
 
@@ -189,15 +185,11 @@
     }
     
     .company-logo {
-        width: 25%;
-        /* height: 50px; */
+        width: 22%;
     }
-
     .main-nav {
-        gap: 4rem;
+        gap: 5rem;
     }
-    
-    
     .drop-down {
         width: 75%;
         gap: 0rem;
@@ -221,29 +213,27 @@
 /* xs */
 @media (max-width: 475px) {
     .container {
-        width: 100% !important;
+       max-width: 320px !important;
     }
-
-
     .company-logo {
-        height: 60px;
-        width: 40%;
+        width: 50%;
     }
-    .company-logo img {
-        height: 100% !important;
-    }
-
     .search-input {
-        width: 2rem;
+        width: 1.5rem;
     }
     .search-icon {
-        top: 1.3rem;
-        right: 14.8rem;
+        display: none;
     }
-
+    .main-nav {
+        gap: 0rem;
+    }
     .bt {
         flex-wrap: nowrap;
         width: 20rem
     }
+
+}
+
+@media (max-width: 320px) {
 
 }
