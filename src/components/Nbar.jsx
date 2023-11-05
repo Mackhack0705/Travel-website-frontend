@@ -4,12 +4,163 @@ import { Link } from 'react-router-dom'
 import logo from '../images/Company-logo.png'
 import { FaUser } from 'react-icons/fa'
 import { BiSearch } from 'react-icons/bi'
-
-
+import Styled from 'styled-components';
 
 const Nbar = ({ isLoggedIn }) => {
+  const StyleNbarContainer = Styled.div`
+    max-width: 1536px !important;
+    margin-inline: auto;
+    padding-inline: 0.5rem;
+
+    /* 2xl */
+@media (max-width: 1536px) {
+    max-width: 1280px !important;
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    max-width: 1024px !important;
+    .main-nav {
+        gap: 4rem;
+    }
+
+    .menu ul {
+        gap: 1.7rem;
+    }
+
+    .search-input {
+        width: 8rem;
+        height: 2.3rem;
+    }
+    .search-icon {
+        top: 1.2rem;
+        right: 14.5rem;
+    }
+
+    .btn-1 {
+        margin-inline: 8px;
+        padding-inline: 18px;
+    }
+
+    .btn-2 {
+        margin-inline: 8px;
+        padding-inline: 18px;
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    max-width: 768px !important;
+    .company-logo {
+        width: 10%;
+    }
+    .search-input {
+        width: 1.9rem;
+        border: none;
+    }
+
+    .search-icon {
+        top: 1.3rem;
+        right: 14.1rem;
+    }
+
+    .menu ul {
+        gap: 1rem;
+    }
+
+    .menu ul li {
+        font-size: 1rem;
+    }
+
+    .main-nav {
+        gap: 2.5rem;
+    }
+
+    ul {
+        padding-left: 1rem !important;
+    }
+    .drop-down {
+        gap: 1rem;
+    }
+}
+
+/* md */
+@media (max-width: 768px) {
+    max-width: 640px !important;
+    .menu {
+        display: none;
+    }
+    .search-icon {
+      top: 1.1rem;
+      right: 14.5rem;
+    }
+    .drop-down {
+        width: 80%;
+    }
+    .bt {
+        width: 100%;
+    }
+    .main-nav {
+        gap: 15rem;
+    }
+    .company-logo {
+        width: 12%;
+    }
+}
+
+/* sm */
+@media (max-width: 640px) {
+    max-width: 475px !important;
+    .company-logo {
+        width: 15%;
+    }
+    .main-nav {
+        gap: 5rem;
+    }
+    .drop-down {
+        width: 75%;
+        gap: 0rem;
+    }
+    .search-icon {
+        right: 14.8rem;
+    }
+
+    .menu-icon {
+        display: block;
+        color: #eab032;
+    
+    }
+    .btn-2 {
+        width: 5.6rem;
+        margin-block: 5px;
+    }
+
+}
+
+/* xs */
+@media (max-width: 475px) {
+    widht: 100% !important;
+    .company-logo {
+        width: 15%;
+    }
+    .search-input {
+        width: 1.5rem;
+    }
+    .search-icon {
+        display: none;
+    }
+    .main-nav {
+        gap: 0rem;
+    }
+    .bt {
+        flex-wrap: nowrap;
+        width: 20rem
+    }
+
+}
+  `;
   return (
-    <div className="container main-nav fl">
+    <StyleNbarContainer className="main-nav fl">
       <a href="#logo" className="company-logo">
         <img src={logo} alt="" style={{ height: "50%", width: "100%" }} />
       </a>
@@ -37,7 +188,7 @@ const Nbar = ({ isLoggedIn }) => {
           }
         </div>
       </div>
-    </div>
+    </StyleNbarContainer>
   )
 }
 
