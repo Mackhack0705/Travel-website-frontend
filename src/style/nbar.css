@@ -2,16 +2,17 @@
 
 
 .main-nav {
-    /* justify-content: space-between; */
+    justify-content: space-between;
     position: absolute;
     top: 1.5rem;
     left: 0;
     right: 0;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .menu ul {
     margin-block: auto;
+    gap: 4rem;
 }
 
 .menu ul li {
@@ -41,27 +42,32 @@
 
 .search-icon {
     position: absolute;
-    top: 1.7rem;
-    right: 15.5rem;
+    top: 2rem;
+    right: 20rem;
 }
 
 .company-logo {
-    border: 2px solid red;
-    height: 80px;
+    /* border: 2px solid red; */
+    /* height: 100%; */
     width: 80px;
 }
 
 .menu {
     width: 50%;
+    /* border: 2px solid red; */
 }
 
 .bt {
-    width: 50%;
-    text-align: end;
+    /* border: 2px solid red; */
+    width: 37%;
+    text-align: center;
 }
 
 .drop-down {
+    justify-content: center;
+    /* border: 2px solid red; */
     width: 90%;
+    /* gap: 4rem; */
 }
 
 .menu-icon {

@@ -16,7 +16,7 @@ const Nbar = ({ isLoggedIn }) => {
 @media (max-width: 1536px) {
     max-width: 1280px !important;
     .company-logo {
-        width: 8%;
+        width: 9%;
     }
 }
 
@@ -30,14 +30,17 @@ const Nbar = ({ isLoggedIn }) => {
     .menu ul {
         gap: 1.7rem;
     }
+    .bt {
+        width: 40%;
+    }
 
     .search-input {
         width: 8rem;
         height: 2.3rem;
     }
     .search-icon {
-        top: 1.75rem;
-        right: 14.5rem;
+        top: 1.5rem;
+        right: 17.5rem;
     }
 
     .btn-1 {
@@ -58,12 +61,12 @@ const Nbar = ({ isLoggedIn }) => {
         width: 12%;
     }
     .search-input {
-        width: 1.9rem;
+        width: 1.8rem;
         border: none;
     }
 
     .search-icon {
-        right: 14.1rem;
+        right: 15rem;
     }
 
     .menu ul {
@@ -93,10 +96,10 @@ const Nbar = ({ isLoggedIn }) => {
         display: none;
     }
     .search-icon {
-      right: 14.5rem;
+      right: 14rem;
     }
     .drop-down {
-        width: 80%;
+        width: 45%;
     }
     .bt {
         width: 100%;
@@ -115,25 +118,19 @@ const Nbar = ({ isLoggedIn }) => {
     .company-logo {
         width: 18%;
     }
-    .main-nav {
-        gap: 5rem !important;
-    }
     .drop-down {
-        width: 75%;
+        width: 60%;
         gap: 0rem;
     }
     .search-icon {
-        right: 14.8rem;
+        top: 1.3rem;
+        right: 14rem;
     }
 
     .menu-icon {
         display: block;
         color: #eab032;
     
-    }
-    .btn-2 {
-        width: 5.6rem;
-        margin-block: 5px;
     }
 
 }
@@ -142,23 +139,31 @@ const Nbar = ({ isLoggedIn }) => {
 @media (max-width: 475px) {
     width: 100% !important;
     .company-logo {
-        width: 500px;
+        width: 65px;
+        height: 50px
     }
     .search-input {
-        width: 1.5rem;
+        display: none;
     }
     .search-icon {
         display: none;
     }
-    .main-nav {
-        // gap: 0rem;
-    }
     .bt {
-        flex-wrap: nowrap;
-        width: 25rem;
+        display: flex;
+        justify-content: center;
     }
     .drop-down {
+        width: 70%;
         gap: 0rem;
+    }
+    .btn-1 {
+        margin-inline: 8px;
+        padding-inline: 15px;
+    }
+
+    .btn-2 {
+        margin-inline: 8px;
+        padding-inline: 20px;
     }
 
 }

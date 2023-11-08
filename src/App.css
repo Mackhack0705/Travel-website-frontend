@@ -82,7 +82,6 @@ input {
   .fl {
     display: flex;
     align-items: center;
-    gap: 4rem;
 }
 
 .primary-button {
@@ -217,11 +216,11 @@ input {
       width: 100%;
     }
     .primary-button {
-        padding: 3px 15px;
+        padding: 3px 12px;
         margin-inline: 8px;
     }
     .secondary-button {
-        padding: 3px 15px;
+        padding: 2px 12px;
         margin-inline: 8px;
     }
   }
