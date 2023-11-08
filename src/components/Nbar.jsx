@@ -15,13 +15,16 @@ const Nbar = ({ isLoggedIn }) => {
     /* 2xl */
 @media (max-width: 1536px) {
     max-width: 1280px !important;
+    .company-logo {
+        width: 8%;
+    }
 }
 
 /* xl */
 @media (max-width: 1280px) {
     max-width: 1024px !important;
     .main-nav {
-        gap: 4rem;
+        gap: 4rem !important;
     }
 
     .menu ul {
@@ -33,7 +36,7 @@ const Nbar = ({ isLoggedIn }) => {
         height: 2.3rem;
     }
     .search-icon {
-        top: 1.2rem;
+        top: 1.75rem;
         right: 14.5rem;
     }
 
@@ -52,7 +55,7 @@ const Nbar = ({ isLoggedIn }) => {
 @media (max-width: 1024px) {
     max-width: 768px !important;
     .company-logo {
-        width: 10%;
+        width: 12%;
     }
     .search-input {
         width: 1.9rem;
@@ -60,7 +63,6 @@ const Nbar = ({ isLoggedIn }) => {
     }
 
     .search-icon {
-        top: 1.3rem;
         right: 14.1rem;
     }
 
@@ -73,7 +75,7 @@ const Nbar = ({ isLoggedIn }) => {
     }
 
     .main-nav {
-        gap: 2.5rem;
+        gap: 2.5rem !important;
     }
 
     ul {
@@ -91,7 +93,6 @@ const Nbar = ({ isLoggedIn }) => {
         display: none;
     }
     .search-icon {
-      top: 1.1rem;
       right: 14.5rem;
     }
     .drop-down {
@@ -101,10 +102,10 @@ const Nbar = ({ isLoggedIn }) => {
         width: 100%;
     }
     .main-nav {
-        gap: 15rem;
+        gap: 15rem !important;
     }
     .company-logo {
-        width: 12%;
+        width: 15%;
     }
 }
 
@@ -112,10 +113,10 @@ const Nbar = ({ isLoggedIn }) => {
 @media (max-width: 640px) {
     max-width: 475px !important;
     .company-logo {
-        width: 15%;
+        width: 18%;
     }
     .main-nav {
-        gap: 5rem;
+        gap: 5rem !important;
     }
     .drop-down {
         width: 75%;
@@ -139,9 +140,9 @@ const Nbar = ({ isLoggedIn }) => {
 
 /* xs */
 @media (max-width: 475px) {
-    widht: 100% !important;
+    width: 100% !important;
     .company-logo {
-        width: 15%;
+        width: 500px;
     }
     .search-input {
         width: 1.5rem;
@@ -150,11 +151,14 @@ const Nbar = ({ isLoggedIn }) => {
         display: none;
     }
     .main-nav {
-        gap: 0rem;
+        // gap: 0rem;
     }
     .bt {
         flex-wrap: nowrap;
-        width: 20rem
+        width: 25rem;
+    }
+    .drop-down {
+        gap: 0rem;
     }
 
 }
@@ -162,7 +166,7 @@ const Nbar = ({ isLoggedIn }) => {
   return (
     <StyleNbarContainer className="main-nav fl">
       <a href="#logo" className="company-logo">
-        <img src={logo} alt="" style={{ height: "50%", width: "100%" }} />
+        <img src={logo} alt="" />
       </a>
       <div className='drop-down fl'>
         <div className="menu">

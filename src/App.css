@@ -217,11 +217,11 @@ input {
       width: 100%;
     }
     .primary-button {
-        padding: 4px 16px;
+        padding: 3px 15px;
         margin-inline: 8px;
     }
     .secondary-button {
-        padding: 4px 16px;
+        padding: 3px 15px;
         margin-inline: 8px;
     }
   }

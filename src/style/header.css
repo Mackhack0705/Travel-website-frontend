@@ -1,5 +1,6 @@
 .header {
     height: 40rem;
+    content: "";
     /* border: 2px solid red; */
     padding-top: 2rem;
     background: url(https://cdn.pixabay.com/photo/2018/01/31/12/16/architecture-3121009_1280.jpg);
