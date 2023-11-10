@@ -35,11 +35,14 @@
 
 .search-section {
     background: linear-gradient(45deg, #ff9900, #a333ff);
-    padding: 2rem 25rem;
+    width: 100%;
+}
+.search-section table {
+    margin: 2rem 25rem;
 }
 
 input {
-    margin: 10px !important;
+    /* margin: 10px !important; */
     padding: 5px;
 }
 
@@ -48,8 +51,13 @@ input {
 }
 
 .search-section table thead tr th {
-    padding-left: 1.5rem;
-    text-align: left !important;
+    /* padding-left: 1.5rem; */
+    text-align: left ;
+    padding: 10px;
+}
+
+.search-section table tbody tr td {
+    padding: 10px;
 }
 
 .destination {
@@ -74,7 +82,98 @@ input {
 
 .search {
     position: relative;
-    top: 12px;
+    top: 5px;
     border-radius: 50px !important;
-    width: 6rem !important;
+    width: 6rem;
 }
+
+.SearchContainer {
+    max-width: 1536px;
+    margin-inline: auto;
+    padding-inline: 0.5rem;
+  }
+  
+  /* 2xl */
+  @media (max-width: 1536px) {
+    .SearchContainer {
+      max-width: 1280px;
+    }
+  }
+  
+  /* xl */
+  @media (max-width: 1280px) {
+    .SearchContainer {
+      max-width: 1024px;
+    }
+    .search-section table {
+        margin: 2rem 20rem;
+    }
+    .destination {
+      width: 13rem;
+    }
+    .check {
+        width: 9rem;
+    }
+  }
+  
+  /* lg */
+  @media (max-width: 1024px) {
+    .SearchContainer {
+      max-width: 768px;
+    }
+    .search-section table {
+        margin: 2rem 11rem;
+    }
+  }
+  
+  /* md */
+  @media (max-width: 768px) {
+    .SearchContainer {
+      max-width: 640px;
+    }
+    .search-section table {
+        margin: 2rem 5rem;
+    }
+    .destination {
+        width: 10rem;
+    }
+    .check {
+        width: 8rem;
+    }
+  }
+  
+  /* sm */
+  @media (max-width: 640px) {
+    .SearchContainer {
+      max-width: 475px;
+    }
+    .search-section table {
+        margin: 2rem 10rem;
+    }
+    .check-section {
+        display: none;
+        padding: 0 !important;
+    }
+    .destination {
+        width: 100%;
+    }
+    .search {
+        top: 10px;
+    }
+  }
+  
+  /* xs */
+  @media (max-width: 475px) {
+    .SearchContainer {
+      width: 100%;
+    }
+    .search-section table {
+        margin: 2rem 0;
+    }
+    .destination {
+        width: 100%;
+    }
+    .search {
+        width: 5rem;
+    }
+  }

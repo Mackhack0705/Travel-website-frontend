@@ -66,7 +66,7 @@ const Nbar = ({ isLoggedIn }) => {
     }
 
     .search-icon {
-        right: 15rem;
+        right: 16rem;
     }
 
     .menu ul {
@@ -96,7 +96,7 @@ const Nbar = ({ isLoggedIn }) => {
         display: none;
     }
     .search-icon {
-      right: 14rem;
+      right: 15rem;
     }
     .drop-down {
         width: 45%;
@@ -124,7 +124,7 @@ const Nbar = ({ isLoggedIn }) => {
     }
     .search-icon {
         top: 1.3rem;
-        right: 14rem;
+        right: 14.5rem;
     }
 
     .menu-icon {
