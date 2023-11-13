@@ -1,11 +1,11 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import "../style/big-feature.css";
+import "../style/big-feature.css"
 
 const BigFeature = (props) => {
   return (
-    <div>
-      <Card style={{ width: "17rem", height: "25rem" }}>
+    <>
+      <Card className="card-container ">
         <Card.Img variant="top" src={props.imgsrc} className="card-img" />
         <Card.Body>
           <div className="card-title fl">
@@ -15,7 +15,7 @@ const BigFeature = (props) => {
           <Card.Text>{props.duration}</Card.Text>
         </Card.Body>
       </Card>
-    </div>
+    </>
   );
 };
 

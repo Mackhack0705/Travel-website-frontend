@@ -118,17 +118,7 @@ input {
 }
 
 /* card-section */
-.card-section {
-  padding-inline: 12rem;
-}
 
-.feature-card {
-    justify-content: center;
-}
-
-.sub-feature-section {
-    margin-inline: 1%;
-}
 .offer-section {
     margin-block: 5rem;
 }
