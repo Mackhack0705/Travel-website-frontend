@@ -8,18 +8,17 @@ import Col from "react-bootstrap/Col";
 const Offer = (props) => {
   return (
     <div>
-      <Card style={{ width: "35rem", height: "18rem" }}>
-        <Row noGutters>
-          <Col xs={7}>
-            <Card.Img variant="left" src={props.imgsrc} style={{height: "17.9rem"}}/>
-              <Card.Title className="offer-title">{props.title}</Card.Title>
+      <Card className="offerCard-container">
+        <Row className="row-style">
+          <Col xs={7} className="col-style">
+            <Card.Img variant="left" src={props.imgsrc} style={{ height: "100%" }} />
+            <Card.Title className="offer-title">{props.title}</Card.Title>
           </Col>
-          <Col xs={5}>
+          <Col xs={5} className="col-style">
             <Card.Body variant="right">
-              <Card.Text><span className="offer-price">{props.price}</span> per night</Card.Text>
-              <Card.Text></Card.Text>
+              <Card.Text className="offer-price"><span>{props.price}</span> per night</Card.Text>
               <Card.Text className="offer-desc">{props.desc}</Card.Text>
-              <Button variant="warning" style={{color: "#ffff"}}>Book now</Button>
+              <Button variant="warning" style={{ color: "#ffff" }}>Book now</Button>
             </Card.Body>
           </Col>
         </Row>

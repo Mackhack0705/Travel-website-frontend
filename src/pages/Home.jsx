@@ -55,12 +55,12 @@ const Home = ({ isLoggedIn }) => {
                 </div>
             </div>
             <div className="offer-section">
-                <h1 className="text-center" style={{ marginBottom: "3rem", color: "var(--primary-text-color)" }}>
+                <h1 className="offerSection-title">
                     The BEST OFFERS WITH ROOMS
                 </h1>
                 <div className="fl offer-card">
                     {Offer_data.map((val, index) => (
-                        <div key={val.id} className="col-md-5 sub-offer-section">
+                        <div key={val.id} className="sub-offer-section">
                             {nOffers(val)}
                         </div>
                     ))}

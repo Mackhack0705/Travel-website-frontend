@@ -7,13 +7,56 @@
     padding: 2% 5%;
 }
 
-.offer-price {
+.offer-price span{
     color: #eab032;
     font-weight: 650;
     font-size: 2rem;
     margin-right: 2%;
 }
 
+.offer-price {
+    font-size: 1rem;
+}
+
 .offer-desc {
     font-size: 1rem  !important;
 }
+
+.offerCard-container {
+    /* margin: 2rem; */
+    width: 35rem;
+    height: 18rem !important;
+}
+
+.row-style {
+    width: 100%;
+    height: 100%;
+    --bs-gutter-x: 0px !important;
+}
+.col-style {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 640px) {
+    .offerCard-container {
+        width: 28rem;
+    }
+    .offer-desc {
+        line-height: 1.4rem;
+    }
+  }
+
+  @media (max-width: 475px) {
+    .offerCard-container {
+        width: 100%;
+        height: 20rem !important;
+    }
+    .offer-price span{
+        font-size: 1.3rem;
+    }
+    .offer-desc {
+        line-height: 1rem;
+        font-size: 0.8rem !important;
+    }
+  }
