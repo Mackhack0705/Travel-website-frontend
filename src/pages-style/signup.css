@@ -1,4 +1,21 @@
-.form-section input {
+.signup-page {
+    border: 1px solid transparent;
+    background: url(https://img.freepik.com/premium-photo/man-talking-cellphone-drinking-takeout-coffee-outside-airport_116547-39253.jpg?w=996);
+    background-size: cover;
+}
+
+.signup-form {
+    position: relative;
+    left: 55%;
+    top: 10%;
+    width: 39%;
+    background: linear-gradient(45deg, #ff9900, #a333ff);
+    padding: 2rem 4rem;
+    margin-block: 2.9rem;
+    border-radius: 5px;
+}
+
+.signup-form input {
     background: transparent;
     color: #ffff;
     outline: none;
@@ -6,35 +23,14 @@
     border-left: none;
     border-right: none;
     border-bottom: 1px solid #ffff;
-    margin-block: 3rem;
-}
-
-input::placeholder {
-    color: #ffff;
-}
-.signup-form {
-    height: 44rem;
-    width: 95rem;
-    background: url(https://img.freepik.com/premium-photo/man-talking-cellphone-drinking-takeout-coffee-outside-airport_116547-39253.jpg?w=996);
-    background-size: cover;
-}
-
-.form-section {
-    height: 80%;
-    width: 40%;
-    position: relative;
-    left: 55%;
-    top: 10%;
-    background: linear-gradient(45deg, #ff9900, #a333ff);
-    padding: 5rem;
-    border-radius: 5px;
+    margin: 2rem 0.9rem;
 }
 
 .account {
-    width: 25rem;
+    width: 26rem;
 }
 
-.form-section h2 {
+.signup-form h2 {
     color: #ffff;
     text-align: center;
     margin-bottom: 3rem;

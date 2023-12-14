@@ -39,8 +39,8 @@ const LoginForm = ({ setIsLoggedIn }) => {
     }
   }
   return (
-    <div className='login-form'>
-      <div className="form-section">
+    <div className='login-page'>
+      <div className="login-form">
         <h2>Login Form</h2>
         <form onSubmit={handleSubmit}>
           <input
@@ -56,7 +56,7 @@ const LoginForm = ({ setIsLoggedIn }) => {
             className='account'
             onChange={handleChange}
             placeholder='Password' />
-          <button className='submit-button primary-button'>Submit</button>
+          <button className='login-button primary-button'>Submit</button>
         </form>
       </div>
     </div>

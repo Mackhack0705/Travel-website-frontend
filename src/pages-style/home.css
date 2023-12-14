@@ -36,6 +36,10 @@
 
 }
 
+.tour-section {
+  border: 2px solid red;
+}
+
 .container {
     max-width: 1536px;
     margin-left: auto;

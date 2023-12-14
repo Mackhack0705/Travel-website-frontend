@@ -8,13 +8,14 @@ import tour from "../videos/tour.mp4"
 
 const Tour = () => {
   return (
-    <div className="tour-card">
-      <Card style={{ width: "70rem", height: "40rem", margin: "auto" }}>
+    <div>
+      <Card style={{ width: "70rem", height: "40rem"}} className="tour-card">
         <Row noGutters>
-          <Col xs={6}>
-            <video src={tour} autoPlay controls loop style={{width: "100%", height: "40rem"}}></video>
+          <Col xs={6} style={{border: "2px solid yellow"}}>
+            <video src={tour} autoPlay controls loop className="video-section">
+            </video>
           </Col>
-          <Col xs={6}>
+          <Col xs={6} style={{border: "2px solid yellow"}}>
             <Card.Body style={{paddingBlock: "5rem"}}>
               <Card.Title className="tour-title">Take a look at Tour video</Card.Title>
               <Card.Text className="tour-desc">

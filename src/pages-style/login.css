@@ -1,4 +1,19 @@
-.form-section input {
+.login-page {
+    border: 1px solid transparent;
+    background: url(https://img.freepik.com/premium-photo/man-talking-cellphone-drinking-takeout-coffee-outside-airport_116547-39253.jpg?w=996);
+    background-size: cover;
+}
+.login-form {
+    position: relative;
+    left: 55%;
+    top: 10%;
+    width: 39%;
+    background: linear-gradient(45deg, #ff9900, #a333ff);
+    padding: 2rem 5rem 10rem;
+    margin-block: 2.9rem;
+    border-radius: 5px;
+}
+.login-form input {
     background: transparent;
     color: #ffff;
     outline: none;
@@ -6,43 +21,27 @@
     border-left: none;
     border-right: none;
     border-bottom: 1px solid #ffff;
-    margin-block: 3rem;
+    margin-block: 2rem;
 }
 
 input::placeholder {
     color: #ffff;
 }
-.login-form {
-    height: 44rem;
-    width: 95rem;
-    background: url(https://img.freepik.com/premium-photo/man-talking-cellphone-drinking-takeout-coffee-outside-airport_116547-39253.jpg?w=996);
-    background-size: cover;
-}
 
-.form-section {
-    height: 80%;
-    width: 40%;
-    position: relative;
-    left: 55%;
-    top: 10%;
-    background: linear-gradient(45deg, #ff9900, #a333ff);
-    padding: 5rem;
-    border-radius: 5px;
-}
 
 .account {
     width: 25rem;
 }
 
-.form-section h2 {
+.login-form h2 {
     color: #ffff;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 6.4rem;
 }
 
-.submit-button {
+.login-button {
     background-color: var(--primary-text-color);
     border-radius: 50px;
-    margin-top: 3rem;
-    margin-inline: 12rem;
+    margin-top: 4rem;
+    margin-inline: 11.5rem;
 }

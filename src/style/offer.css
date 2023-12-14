@@ -3,6 +3,7 @@
     bottom: 25%;
     color: #ffff !important;
     background-color: #eab032;
+    font-size: 1.25rem !important;
     width: 60%;
     padding: 2% 5%;
 }
@@ -50,13 +51,16 @@
   @media (max-width: 475px) {
     .offerCard-container {
         width: 100%;
-        height: 20rem !important;
+        height: 14rem !important;
     }
     .offer-price span{
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     .offer-desc {
         line-height: 1rem;
-        font-size: 0.8rem !important;
+        font-size: 0.6rem !important;
+    }
+    .offer-title {
+        font-size: 0.7rem !important;
     }
   }

@@ -6,6 +6,7 @@
     /* justify-content: center; */
     text-align: center;
     margin-bottom: 10rem;
+    cursor: pointer;
 }
 
 .hotel-section {
@@ -15,6 +16,7 @@
     /* background-color: var(--primary-btn-color); */
     padding-top: 1.5rem;
     border-top-left-radius: 50px;
+    cursor: pointer;
 }
 
 .flight-section {
