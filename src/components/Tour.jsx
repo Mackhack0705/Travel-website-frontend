@@ -12,7 +12,7 @@ const Tour = () => {
       <Card style={{ width: "70rem", height: "40rem"}} className="tour-card">
         <Row noGutters>
           <Col xs={6} style={{border: "2px solid yellow"}}>
-            <video src={tour} autoPlay controls loop className="video-section">
+            <video src={tour} autoPlay controls type={video/mp4} loop className="video-section">
             </video>
           </Col>
           <Col xs={6} style={{border: "2px solid yellow"}}>
