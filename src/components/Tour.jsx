@@ -7,9 +7,9 @@ import tour from "../videos/tour.mp4"
 const Tour = () => {
   return (
     <div>
-      <Card style={{ width: "70rem", height: "40rem"}} className="tour-card">
+      <Card className="tour-card">
           <div className="Cols">
-            <video src={tour} autoPlay controls loop className="video-section">
+            <video  src={tour} autoPlay controls loop className="video-section">
             </video>
           </div>
           <div className="Cols">

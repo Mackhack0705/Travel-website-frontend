@@ -1,12 +1,15 @@
 .tour-card {
+    width: 70rem;
+    height: 40rem;
     margin: auto;
     display: grid !important;
     grid-template-columns: repeat(2, 1fr);
 }
 
 .video-section {
-    height: 39rem;
+    height: 635px;
     width: 100%;
+    object-fit: cover;
 }
 .Cols {
     height: 100%;
@@ -26,4 +29,86 @@
 .tour-button {
     color: #ffff !important;
     border-radius: 50px !important;
+}
+
+
+/* 2xl */
+@media (max-width: 1536px) {
+  
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .tour-card {
+    width: 50rem;
+    height: 38rem !important;
+  }
+  .video-section {
+    height: 602px;
+  }
+  .tour-title {
+    font-size: 2rem !important;
+  }
+  .tour-desc {
+    font-size: 1rem;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .tour-card {
+    width: 40rem;
+    height: 37rem !important;
+  }
+  .video-section {
+    height: 588px;
+  }
+  .tour-title {
+    font-size: 1.7rem !important;
+  }
+  .tour-desc {
+    font-size: 0.9rem;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .tour-card {
+    width: 36rem;
+    height: 33rem !important;
+  }
+  .video-section {
+    height: 522px;
+  }
+  .tour-title {
+    font-size: 1.4rem !important;
+  }
+  .tour-desc {
+    font-size: 0.7rem;
+    line-height: 1.2rem;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .tour-card {
+    width: 100%;
+    height: 25rem !important;
+    margin: 0;
+  }
+  .video-section {
+    height: 90%;
+  }
+  .tour-title {
+    font-size: 0.8rem !important;
+  }
+  .tour-desc {
+    font-size: 0.6rem;
+    line-height: 0.7rem;
+  }
 }
