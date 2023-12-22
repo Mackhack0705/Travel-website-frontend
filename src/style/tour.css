@@ -1,13 +1,17 @@
 .tour-card {
-    border: 2px solid red !important;
     margin: auto;
-    padding: 1rem;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .video-section {
     height: 39rem;
     width: 100%;
 }
+.Cols {
+    height: 100%;
+}
+
 .tour-title {
     font-size: 2.5rem !important;
     font-weight: normal;

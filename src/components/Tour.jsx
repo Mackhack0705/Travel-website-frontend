@@ -10,12 +10,11 @@ const Tour = () => {
   return (
     <div>
       <Card style={{ width: "70rem", height: "40rem"}} className="tour-card">
-        <Row noGutters>
-          <Col xs={6} style={{border: "2px solid yellow"}}>
-            <video src={tour} autoPlay controls type={video/mp4} loop className="video-section">
+          <div className="Cols">
+            <video src={tour} autoPlay controls loop className="video-section">
             </video>
-          </Col>
-          <Col xs={6} style={{border: "2px solid yellow"}}>
+          </div>
+          <div className="Cols">
             <Card.Body style={{paddingBlock: "5rem"}}>
               <Card.Title className="tour-title">Take a look at Tour video</Card.Title>
               <Card.Text className="tour-desc">
@@ -24,8 +23,7 @@ const Tour = () => {
               </Card.Text>
               <Button variant="warning" className="tour-button">Get Started</Button>
             </Card.Body>
-          </Col>
-        </Row>
+          </div>
       </Card>
     </div>
   );

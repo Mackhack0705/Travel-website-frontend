@@ -168,6 +168,7 @@ const Nbar = ({ isLoggedIn }) => {
 
 }
   `;
+  
   return (
     <StyleNbarContainer className="main-nav fl">
       <a href="#logo" className="company-logo">

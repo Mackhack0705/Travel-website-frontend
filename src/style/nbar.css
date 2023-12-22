@@ -43,8 +43,11 @@
 .search-icon {
     position: absolute;
     top: 2rem;
-    right: 20rem;
+    right: 16rem;
+    z-index: -1;
 }
+
+
 
 .company-logo {
     /* border: 2px solid red; */
