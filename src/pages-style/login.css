@@ -127,8 +127,11 @@ input::placeholder {
 }
 
 @media (max-width: 320px) {
+    .account {
+        width: 19.5rem;
+    }
     .login-form {
-        padding: 2rem 1rem;
+        padding: 2rem 0;
         
     }
     .login-form h2 {
