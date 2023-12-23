@@ -55,7 +55,7 @@ const LoginForm = ({ setIsLoggedIn }) => {
             name='password'
             className='account'
             onChange={handleChange}
-            placeholder='Password' />
+            placeholder='Password' /> <br />
           <button className='login-button primary-button'>Submit</button>
         </form>
       </div>

@@ -67,7 +67,7 @@ const SignUp = () => {
               onChange={handleChange}
             />
             <input type="email"
-              className='account'
+              className='acc'
               name='email'
               // value={formData.email}
               placeholder='Email'
@@ -76,7 +76,7 @@ const SignUp = () => {
             <br />
             <input
               type="password"
-              className='account'
+              className='acc'
               name='password'
               // value={formData.password}
               placeholder='Password'

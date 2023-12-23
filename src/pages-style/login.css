@@ -1,5 +1,5 @@
 .login-page {
-    border: 1px solid transparent;
+    height: 100vh;
     background: url(https://img.freepik.com/premium-photo/man-talking-cellphone-drinking-takeout-coffee-outside-airport_116547-39253.jpg?w=996);
     background-size: cover;
 }
@@ -44,4 +44,80 @@ input::placeholder {
     border-radius: 50px;
     margin-top: 4rem;
     margin-inline: 11.5rem;
+}
+
+
+/* 2xl */
+@media (max-width: 1536px) {
+ 
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .login-form {
+    top: 3%;
+    margin-block: 2.5rem;
+    padding: 2rem 5rem 3rem;
+  }
+  .account {
+    width: 21rem;
+  }
+  .login-button {
+    margin-inline: 8rem;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .account {
+    width: 15rem;
+  }
+  .login-button {
+    margin-inline: 5rem;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .login-form {
+    left: 16%;
+    width: 70%;
+    padding: 1rem 8rem 3rem;
+  }
+  .account {
+    width: 18rem;
+  }
+  .login-form h2 {
+    margin-block: 3rem;
+  }
+  .login-button {
+    margin-inline: 6rem;;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .login-form {
+    padding: 1rem 5rem 3rem;
+  }
+  .login-form {
+    margin-block: 3rem;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .login-page {
+    background: none;
+  }
+  .login-form {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 6rem 12rem;
+    margin-block: 0;
+  }
+  .login-button {
+    margin-inline: 7rem;
+  }
 }
