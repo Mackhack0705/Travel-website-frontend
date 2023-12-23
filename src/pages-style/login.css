@@ -1,11 +1,10 @@
 .login-page {
+    border: 1px solid transparent;
     height: 100vh;
-    border: 1px solid red;
     background: url(https://img.freepik.com/premium-photo/man-talking-cellphone-drinking-takeout-coffee-outside-airport_116547-39253.jpg?w=996);
     background-size: cover;
 }
 .login-form {
-    border: 2px solid blue;
     position: relative;
     left: 55%;
     top: 10%;
