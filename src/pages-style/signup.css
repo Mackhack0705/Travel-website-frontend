@@ -1,4 +1,5 @@
 .signup-page {
+    height: 100vh;
     border: 1px solid transparent;
     background: url(https://img.freepik.com/premium-photo/man-talking-cellphone-drinking-takeout-coffee-outside-airport_116547-39253.jpg?w=996);
     background-size: cover;
@@ -7,7 +8,7 @@
 .signup-form {
     position: relative;
     left: 55%;
-    top: 10%;
+    top: 1%;
     width: 39%;
     background: linear-gradient(45deg, #ff9900, #a333ff);
     padding: 2rem 4rem;
@@ -41,4 +42,113 @@
     border-radius: 50px;
     margin-top: 3rem;
     margin-inline: 12rem;
+}
+
+
+/* xl */
+@media (max-width: 1280px) {
+  .signup-form {
+    left: 48%;
+    top: 1%;
+    width: 45%;
+    margin-block: 1.5rem;
+  }
+  .signup-form h2 {
+    margin-block: 1.5rem;
+  }
+  .signup-form input {
+    margin: 1.5rem 0.8rem;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .signup-form {
+    left: 45%;
+    top: 1%;
+    width: 50%;
+    padding: 2rem 3rem;
+  }
+  .signup-form h2 {
+    margin-block: 1.2rem;
+  }
+  .signup-form input {
+    margin: 1.5rem 0.4rem;
+  }
+  .acc {
+    width: 25rem;
+  }
+  .submit-button {
+    margin-top: 4rem;
+    margin-inline: 10rem;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .signup-form {
+    left: 16%;
+    top: 2%;
+    width: 70%;
+  }
+  .signup-form input {
+    margin: 1.5rem 0.8rem;
+  }
+  .acc {
+    width: 25.5rem;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .signup-form {
+    left: 10%;
+    width: 80%;
+  }
+  .signup-form input {
+    margin: 1.5rem 0.4rem;
+  }
+  .acc {
+    width: 24.5rem;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .signup-form {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin-block: 0;
+    padding: 2rem 1rem;
+  }
+  .signup-form input {
+    margin: 2rem 0.8rem;
+  }
+  .acc {
+    width: 93% !important;
+  }
+  .submit-button {
+    margin-inline: 38%;
+  }
+}
+
+@media (max-width: 320px) {
+    .signup-form {
+        padding: 1rem;
+    }
+    .signup-form h2 {
+        margin-block: 1rem;
+    }
+    .signup-form input {
+        width: 40%;
+        margin: 1.5rem 0.8rem;
+    }
+    .submit-button {
+        margin-inline: 38%;
+    }
+    .acc {
+        width: 90% !important;
+    }
 }

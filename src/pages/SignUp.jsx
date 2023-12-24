@@ -85,7 +85,7 @@ const SignUp = () => {
             <br />
             <input
               type="password"
-              className='account'
+              className='acc'
               name='confirmPassword'
               // value={formData.confirmPassword}
               placeholder='Confirm password'

@@ -7,7 +7,7 @@
 .login-form {
     position: relative;
     left: 55%;
-    top: 10%;
+    top: 1%;
     width: 39%;
     background: linear-gradient(45deg, #ff9900, #a333ff);
     padding: 2rem 5rem 10rem;
@@ -80,9 +80,9 @@ input::placeholder {
 
 /* md */
 @media (max-width: 768px) {
-  .login-page {
-    /* background: none; */
-  }
+  /* .login-page {
+    background: none;
+  } */
   .login-form {
     left: 16%;
     width: 70%;
@@ -122,7 +122,10 @@ input::placeholder {
     margin-block: 0;
   }
   .login-button {
-    margin-inline: 7rem;
+    margin-inline: 38%;
+  }
+  .login-form input {
+    width: 100%;
   }
 }
 
@@ -131,11 +134,15 @@ input::placeholder {
         width: 19.5rem;
     }
     .login-form {
-        padding: 2rem 0;
+        padding: 2rem 0.5rem;
         
     }
     .login-form h2 {
         margin-block: 5rem;
+    }
+    .login-form input {
+      width: 90%;
+      margin-inline: 1rem;
     }
     
 }
